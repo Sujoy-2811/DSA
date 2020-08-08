@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
+#include<conio.h>
 
 void search(int arr[], int l, int x)
 {
@@ -7,7 +7,7 @@ void search(int arr[], int l, int x)
     {
         if (arr[i] == x)
         {
-            cout<< "Position of "<< x << " is "<< i;
+            printf("Value of %d is %d", x, i);
             break;
         }
 
@@ -16,11 +16,12 @@ void search(int arr[], int l, int x)
 }
 
 
-int main(int argc, char const *argv[])
+int main()
 {
     int arr[] ={ 3, 5, 42, 56, 76, 345, 666 };
     int l = 7;
     int x = 42;
     search(arr, l, x);
+    getch();
     return 0;
 }

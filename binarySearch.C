@@ -70,5 +70,6 @@ int main(int argc, char const *argv[])
     scanf("%d", &item);
 
     binarySearch(arr, n, item);
+    getch();
     return 0;
 }

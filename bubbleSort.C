@@ -20,6 +20,9 @@ int main()
     }
     printArray(arr, n);
 
+    printf("\n\nPress any key to sort the given array");
+    getch();
+
     bubbleSort(arr, n);
     printf("\n \n--------------------------------After Sorted--------------------------------\n");
     printArray(arr, n);

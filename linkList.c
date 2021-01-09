@@ -110,24 +110,6 @@ int main()
                 insertAt(value, position);
                 display();
                 break;
-                // if (position == 1)
-                // {
-                //     ins_beg();
-                //     display();
-                //     break;
-                // }
-                // else if (position == count + 1)
-                // {
-                //     ins_end();
-                //     display();
-                //     break;
-                // }
-                // else
-                // {
-                //     ins_pos(position);
-                //     display();
-                //     break;
-                // }
             }
         case 2:
             printf("\nenter the position where you want to delete: ");
